@@ -15,7 +15,7 @@
 <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 
 <meta name="csrf-token" content="{{ csrf_token() }}">
-<link rel="icon" type="image/x-icon" href="#!"/>
+<link rel="icon" type="image/x-icon" href="{{ asset('assets/img/logo-black.png') }}"/>
 
 @stack('style-link')
 
