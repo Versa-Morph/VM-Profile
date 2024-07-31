@@ -1441,12 +1441,7 @@ menu
   -webkit-transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
   transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
 }
-@media screen and (max-width: 1200px) {
-  .mil-menu-frame .mil-menu-right-frame {
-    display: none;
-  }
-}
-@media screen and (max-height: 800px) {
+@media screen and (max-height: 600px) {
   .mil-menu-frame .mil-menu-right-frame {
     display: none;
   }
