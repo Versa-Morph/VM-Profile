@@ -57,7 +57,7 @@ Route::get('/', function () {
 // User Route
 // ================================================================================================================================
 
-Route::prefix('VM')->name('user.')->middleware(['web'])->group(function () {
+Route::name('user.')->middleware(['web'])->group(function () {
     // Route::get('/homepage',[HomepageController::class, 'index'])->name('homepage');
     Route::get('/homepage', function() {
         return view('user.homepage.index');
