@@ -15,11 +15,11 @@
             <div class="container">
                 <div class="mil-banner-content mil-up">
 
-                    <h1 class="mil-muted mil-mb-60">Designing <span class="mil-thin">a Better</span><br> World <span class="mil-thin">Today</span></h1>
+                    <h1 class="mil-muted mil-mb-60">Shaping <span class="mil-thin">the Future</span><br> of <span class="mil-thin">Technology</span></h1>
                     <div class="row">
                         <div class="col-md-7 col-lg-5">
 
-                            <p class="mil-light-soft mil-mb-60">Welcome to our world of endless imagination and boundless creativity. Together, let's embark on a remarkable journey where dreams become tangible realities.</p>
+                            <p class="mil-light-soft mil-mb-60">Welcome to our realm of infinite innovation and unparalleled expertise. Together, let&#39;s embark on an extraordinary journey where digital dreams transform into groundbreaking solutions.</p>
 
                         </div>
                     </div>
@@ -62,16 +62,20 @@
                 <div class="col-lg-6 col-xl-5">
 
                     <div class="mil-mb-90">
-                        <h2 class="mil-up mil-mb-60">Discover <br>Our <span class="mil-thin">Studio</span></h2>
-                        <p class="mil-up mil-mb-30">At our design studio, we are a collective of talented individuals ignited by our unwavering passion for transforming ideas into reality. With a harmonious blend of diverse backgrounds and a vast array of skill sets, we join forces to create compelling solutions for our esteemed clients.</p>
+                        <h2 class="mil-up mil-mb-60">Discover <br>Versa <span class="mil-thin">Morph</span></h2>
+                        <p class="mil-up mil-mb-30">At Versa Morph, we are a collective of talented individuals driven by our unwavering passion for
+                            transforming ideas into reality. With a harmonious blend of diverse backgrounds and a vast array of skill
+                            sets, we join forces to create compelling IT solutions for our esteemed clients.</p>
 
-                        <p class="mil-up mil-mb-60">Collaboration is at the heart of what we do. Our team thrives on the synergy that arises when unique perspectives converge, fostering an environment of boundless creativity. By harnessing our collective expertise, we produce extraordinary results that consistently surpass expectations.</p>
+                        <p class="mil-up mil-mb-60">Collaboration is at the heart of what we do. Our team thrives on the synergy that arises when unique
+                            perspectives converge, fostering an environment of boundless creativity. By harnessing our collective
+                            expertise, we produce extraordinary results that consistently surpass expectations.</p>
 
                         <div class="mil-about-quote">
                             <div class="mil-avatar mil-up">
                                 <img src="{{ ('img/faces/customers/2.jpg') }}" alt="Founder">
                             </div>
-                            <h6 class="mil-quote mil-up">Passionately Creating <span class="mil-thin">Design Wonders:</span> Unleashing <span class="mil-thin">Boundless Creativity</span></h6>
+                            <h6 class="mil-quote mil-up">Passionately Crafting <span class="mil-thin">Digital Excellence:</span> Unleashing <span class="mil-thin">Infinite Innovation</span></h6>
                         </div>
                     </div>
 
@@ -104,7 +108,7 @@
                     <div class="row">
                         <div class="col-lg-10">
 
-                            <span class="mil-suptitle mil-light-soft mil-suptitle-right mil-up">Professionals focused on helping your brand<br> grow and move forward.</span>
+                            <span class="mil-suptitle mil-light-soft mil-suptitle-right mil-up">Professionals dedicated to propelling <br> your business forward.</span>
 
                         </div>
                     </div>
@@ -112,50 +116,68 @@
                     <div class="mil-complex-text justify-content-center mil-up mil-mb-15">
 
                         <span class="mil-text-image"><img src="{{ asset('assets/img/photo/2.jpg')}}" alt="team"></span>
-                        <h2 class="mil-h1 mil-muted mil-center">Unique <span class="mil-thin">Ideas</span></h2>
+                        <h2 class="mil-h1 mil-muted mil-center">Innovative <span class="mil-thin">Ideas</span></h2>
 
                     </div>
                     <div class="mil-complex-text justify-content-center mil-up">
 
-                        <h2 class="mil-h1 mil-muted mil-center">For Your <span class="mil-thin">Business.</span></h2>
+                        <h2 class="mil-h1 mil-muted mil-center">For Your <span class="mil-thin">Business Growth.</span></h2>
                         <a href="#!" class="mil-services-button mil-button mil-arrow-place"><span>What we do</span></a>
 
                     </div>
                 </div>
 
-                <div class="row mil-services-grid m-0">
-                    <div class="col-md-6 col-lg-3 mil-services-grid-item p-0">
+                <div class="row mil-services-grid m-0 justify-content-center">
+                    <div class="col-md-6 col-lg-4 mil-services-grid-item p-0">
 
                         <a href="#!" class="mil-service-card-sm mil-up">
-                            <h5 class="mil-muted mil-mb-30">Branding and <br>Identity Design</h5>
-                            <p class="mil-light-soft mil-mb-30">Our creative agency is a team of professionals focused on helping your brand grow.</p>
+                            <h5 class="mil-muted mil-mb-30">Digital <br>Transformation</h5>
+                            <p class="mil-light-soft mil-mb-30">Leading your business through seamless digital transitions for greater efficiency.</p>
                             <div class="mil-button mil-icon-button-sm mil-arrow-place"></div>
                         </a>
 
                     </div>
-                    <div class="col-md-6 col-lg-3 mil-services-grid-item p-0">
+                    <div class="col-md-6 col-lg-4 mil-services-grid-item p-0">
 
                         <a href="#!" class="mil-service-card-sm mil-up">
-                            <h5 class="mil-muted mil-mb-30">Website Design <br>and Development</h5>
-                            <p class="mil-light-soft mil-mb-30">Our creative agency is a team of professionals focused on helping your brand grow.</p>
+                            <h5 class="mil-muted mil-mb-30">Software <br>Development</h5>
+                            <p class="mil-light-soft mil-mb-30">Designing and developing software tailored to your specific needs.  </p>
                             <div class="mil-button mil-icon-button-sm mil-arrow-place"></div>
                         </a>
 
                     </div>
-                    <div class="col-md-6 col-lg-3 mil-services-grid-item p-0">
+                    <div class="col-md-6 col-lg-4 mil-services-grid-item p-0">
 
                         <a href="#!" class="mil-service-card-sm mil-up">
-                            <h5 class="mil-muted mil-mb-30">Advertising and <br>Marketing Campaigns</h5>
-                            <p class="mil-light-soft mil-mb-30">Our creative agency is a team of professionals focused on helping your brand grow.</p>
+                            <h5 class="mil-muted mil-mb-30">IT <br>Consulting</h5>
+                            <p class="mil-light-soft mil-mb-30">Offering expert guidance to optimize your technology infrastructure.</p>
                             <div class="mil-button mil-icon-button-sm mil-arrow-place"></div>
                         </a>
 
                     </div>
-                    <div class="col-md-6 col-lg-3 mil-services-grid-item p-0">
+                    <div class="col-md-6 col-lg-4 mil-services-grid-item p-0">
 
                         <a href="#!" class="mil-service-card-sm mil-up">
-                            <h5 class="mil-muted mil-mb-30">Creative Consulting <br>and Development</h5>
-                            <p class="mil-light-soft mil-mb-30">Our creative agency is a team of professionals focused on helping your brand grow.</p>
+                            <h5 class="mil-muted mil-mb-30">Data Analytics <br>and AI Solutions</h5>
+                            <p class="mil-light-soft mil-mb-30">Utilizing data and AI to drive strategic business decisions.</p>
+                            <div class="mil-button mil-icon-button-sm mil-arrow-place"></div>
+                        </a>
+
+                    </div>
+                    <div class="col-md-6 col-lg-4 mil-services-grid-item p-0">
+
+                        <a href="#!" class="mil-service-card-sm mil-up">
+                            <h5 class="mil-muted mil-mb-30">Cybersecurity <br>Services</h5>
+                            <p class="mil-light-soft mil-mb-30">Ensuring robust protection for your digital assets and data.</p>
+                            <div class="mil-button mil-icon-button-sm mil-arrow-place"></div>
+                        </a>
+
+                    </div>
+                    <div class="col-md-6 col-lg-4 mil-services-grid-item p-0">
+
+                        <a href="#!" class="mil-service-card-sm mil-up">
+                            <h5 class="mil-muted mil-mb-30">Cloud <br>Solutions</h5>
+                            <p class="mil-light-soft mil-mb-30">Implementing scalable cloud services to support your business operations.</p>
                             <div class="mil-button mil-icon-button-sm mil-arrow-place"></div>
                         </a>
 
@@ -171,24 +193,23 @@
         <div class="container mil-p-120-30">
             <div class="row justify-content-between align-items-center">
                 <div class="col-lg-5 col-xl-4">
-
                     <div class="mil-mb-90">
                         <h2 class="mil-up mil-mb-60">Meet <br>Our Team</h2>
-                        <p class="mil-up mil-mb-30">We are talented individuals who are passionate about bringing ideas to life. With a diverse range of backgrounds and skill sets, we collaborate to produce effective solutions for our clients.</p>
+                        <p class="mil-up mil-mb-30">We are a team of talented professionals dedicated to driving digital transformation. With diverse
+                            backgrounds and a wide range of expertise, we collaborate to create innovative IT solutions for our
+                            clients.</p>
 
-                        <p class="mil-up mil-mb-60">Together, our creative team is committed to delivering impactful work that exceeds expectations.</p>
+                        <p class="mil-up mil-mb-60">Together, our team at Versa Morph is committed to delivering exceptional results that exceed
+                            expectations.</p>
 
                         <div class="mil-up"><a href="#!" class="mil-button mil-arrow-place mil-mb-60"><span>Read more</span></a></div>
 
-                        <h4 class="mil-up"><span class="mil-thin">We</span> delivering <br><span class="mil-thin">exceptional</span> results.</h4>
+                        <h4 class="mil-up"><span class="mil-thin">Delivering</span> Exceptional <br><span class="mil-thin">Digital</span> Solutions.</h4>
                     </div>
-
                 </div>
                 <div class="col-lg-6">
-
                     <div class="mil-team-list">
                         <div class="mil-lines-place"></div>
-
                         <div class="row mil-mb-60">
                             <div class="col-sm-6">
 
@@ -279,12 +300,12 @@
             <div class="row">
                 <div class="col-lg-10">
 
-                    <span class="mil-suptitle mil-suptitle-right mil-suptitle-dark mil-up">Customer reviews are a valuable source <br>of information for both businesses and consumers.</span>
+                    <span class="mil-suptitle mil-suptitle-right mil-suptitle-dark mil-up">Our clients&#39; feedback is a testament <br>to our commitment to excellence.</span>
 
                 </div>
             </div>
 
-            <h2 class="mil-center mil-up mil-mb-60">Customer <span class="mil-thin">Voices:</span> <br>Hear What <span class="mil-thin">They Say!</span></h2>
+            <h2 class="mil-center mil-up mil-mb-60">Versa Morph <span class="mil-thin">Client Stories:</span> <br>Discover <span class="mil-thin">Their Experiences!</span></h2>
 
             <div class="mil-revi-pagination mil-up mil-mb-60"></div>
 

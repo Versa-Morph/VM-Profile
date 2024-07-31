@@ -3,7 +3,7 @@
 
 <head>
 
-    <title>Versa Morph ID</title>
+    <title>Versa Morph</title>
 
     @include('user.layouts.partials.head')
 
@@ -30,14 +30,14 @@
         <div class="mil-preloader">
             <div class="mil-preloader-animation">
                 <div class="mil-pos-abs mil-animation-1">
-                    <p class="mil-h3 mil-muted mil-thin">Pioneering</p>
-                    <p class="mil-h3 mil-muted">Creative</p>
-                    <p class="mil-h3 mil-muted mil-thin">Excellence</p>
+                    <p class="mil-h3 mil-muted mil-thin">Innovative</p>
+                    <p class="mil-h3 mil-muted">Design</p>
+                    <p class="mil-h3 mil-muted mil-thin">Technology</p>
                 </div>
                 <div class="mil-pos-abs mil-animation-2">
                     <div class="mil-reveal-frame">
                         <p class="mil-reveal-box"></p>
-                        <p class="mil-h3 mil-muted mil-thin">versamorph.com</p>
+                        <p class="mil-h3 mil-muted mil-thin">versamorph.pro</p>
                     </div>
                 </div>
             </div>
