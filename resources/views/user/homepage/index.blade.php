@@ -127,8 +127,10 @@
                     </div>
                 </div>
 
+            </div>
+            <div class="container" style="max-width: 100% !important;">
                 <div class="row mil-services-grid m-0 justify-content-center">
-                    <div class="col-md-6 col-lg-4 mil-services-grid-item p-0">
+                    <div class="col-md-6 col-lg-2 mil-services-grid-item p-0">
 
                         <a href="#!" class="mil-service-card-sm mil-up">
                             <h5 class="mil-muted mil-mb-30">Digital <br>Transformation</h5>
@@ -137,7 +139,7 @@
                         </a>
 
                     </div>
-                    <div class="col-md-6 col-lg-4 mil-services-grid-item p-0">
+                    <div class="col-md-6 col-lg-2 mil-services-grid-item p-0">
 
                         <a href="#!" class="mil-service-card-sm mil-up">
                             <h5 class="mil-muted mil-mb-30">Software <br>Development</h5>
@@ -146,7 +148,7 @@
                         </a>
 
                     </div>
-                    <div class="col-md-6 col-lg-4 mil-services-grid-item p-0">
+                    <div class="col-md-6 col-lg-2 mil-services-grid-item p-0">
 
                         <a href="#!" class="mil-service-card-sm mil-up">
                             <h5 class="mil-muted mil-mb-30">IT <br>Consulting</h5>
@@ -155,7 +157,7 @@
                         </a>
 
                     </div>
-                    <div class="col-md-6 col-lg-4 mil-services-grid-item p-0">
+                    <div class="col-md-6 col-lg-2 mil-services-grid-item p-0">
 
                         <a href="#!" class="mil-service-card-sm mil-up">
                             <h5 class="mil-muted mil-mb-30">Data Analytics <br>and AI Solutions</h5>
@@ -164,7 +166,7 @@
                         </a>
 
                     </div>
-                    <div class="col-md-6 col-lg-4 mil-services-grid-item p-0">
+                    <div class="col-md-6 col-lg-2 mil-services-grid-item p-0">
 
                         <a href="#!" class="mil-service-card-sm mil-up">
                             <h5 class="mil-muted mil-mb-30">Cybersecurity <br>Services</h5>
@@ -173,7 +175,7 @@
                         </a>
 
                     </div>
-                    <div class="col-md-6 col-lg-4 mil-services-grid-item p-0">
+                    <div class="col-md-6 col-lg-2 mil-services-grid-item p-0">
 
                         <a href="#!" class="mil-service-card-sm mil-up">
                             <h5 class="mil-muted mil-mb-30">Cloud <br>Solutions</h5>
