@@ -17,10 +17,10 @@
                                 <a href="{{ route('user.homepage') }}">Homepage</a>
                             </li>
                             <li class="mil-has-children">
-                                <a href="{{ route('user.portfolio') }}">Portfolio</a>
+                                <a href="{{ route('user.service') }}">Services</a>
                             </li>
                             <li class="mil-has-children">
-                                <a href="{{ route('user.service') }}">Services</a>
+                                <a href="{{ route('user.portfolio') }}">Portfolio</a>
                             </li>
                             <li class="mil-has-children">
                                 <a href="{{ route('user.newslatter') }}">Newsletter</a>

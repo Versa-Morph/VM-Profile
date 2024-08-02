@@ -24,11 +24,11 @@
                         </div>
                     </div>
 
-                    <a href="#!" class="mil-button mil-arrow-place mil-btn-space">
+                    <a href="{{ route('user.service') }}" class="mil-button mil-arrow-place mil-btn-space">
                         <span>What we do</span>
                     </a>
 
-                    <a href="#!" class="mil-link mil-muted mil-arrow-place">
+                    <a href="{{ route('user.portfolio') }}" class="mil-link mil-muted mil-arrow-place">
                         <span>View works</span>
                     </a>
 
