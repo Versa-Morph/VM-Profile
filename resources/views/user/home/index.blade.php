@@ -232,11 +232,11 @@
                                 </div>
 
                                 <div class="mil-team-card mil-up mil-mb-30">
-                                    <img src="{{ asset('assets/img/faces/2.jpg') }}" alt="Team member">
+                                    <img src="{{ asset('assets/img/faces/3.jpg') }}" alt="Team member">
                                     <div class="mil-description">
                                         <div class="mil-secrc-text">
-                                            <h5 class="mil-muted mil-mb-5"><a href="{{ route('user.team.individu', ['name' => 'Unique-Scovi-Egnel']) }}">Unique Scovi Egnel</a></h5>
-                                            <p class="mil-link mil-light-soft mil-mb-10">Marketing and Client Engagement Lead</p>
+                                            <h5 class="mil-muted mil-mb-5"><a href="{{ route('user.team.individu', ['name' => 'Sahri-Ramadan']) }}">Sahri Ramadan</a></h5>
+                                            <p class="mil-link mil-light-soft mil-mb-10">Technology and Innovation Lead</p>
                                             <ul class="mil-social-icons mil-center">
                                                 <li><a href="#." target="_blank" class="social-icon"> <i class="fab fa-behance"></i></a></li>
                                                 <li><a href="#." target="_blank" class="social-icon"> <i class="fab fa-dribbble"></i></a></li>
@@ -252,11 +252,11 @@
                                 <p class="mil-mobile-hidden mil-text-sm mil-mb-30" style="height: 30px;"><span class="mil-accent">*</span> The founders of our agency</p>
 
                                 <div class="mil-team-card mil-up mil-mb-30">
-                                    <img src="{{ asset('assets/img/faces/3.jpg') }}" alt="Team member">
+                                    <img src="{{ asset('assets/img/faces/2.jpg') }}" alt="Team member">
                                     <div class="mil-description">
                                         <div class="mil-secrc-text">
-                                            <h5 class="mil-muted mil-mb-5"><a href="{{ route('user.team.individu', ['name' => 'Sahri-Ramadan']) }}">Sahri Ramadan</a></h5>
-                                            <p class="mil-link mil-light-soft mil-mb-10">Technology and Innovation Lead</p>
+                                            <h5 class="mil-muted mil-mb-5"><a href="{{ route('user.team.individu', ['name' => 'Unique-Scovi-Egnel']) }}">Unique Scovi Egnel</a></h5>
+                                            <p class="mil-link mil-light-soft mil-mb-10">Marketing and Client Engagement Lead</p>
                                             <ul class="mil-social-icons mil-center">
                                                 <li><a href="#." target="_blank" class="social-icon"> <i class="fab fa-behance"></i></a></li>
                                                 <li><a href="#." target="_blank" class="social-icon"> <i class="fab fa-dribbble"></i></a></li>
@@ -266,6 +266,7 @@
                                         </div>
                                     </div>
                                 </div>
+
                             </div>
                         </div>
                     </div>
