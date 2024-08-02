@@ -17,7 +17,7 @@
                                 <a href="{{ route('user.home') }}">Home</a>
                             </li>
                             <li class="mil-has-children">
-                                <a href="{{ route('user.service') }}">Services</a>
+                                <a href="{{ route('user.service') }}">Service</a>
                             </li>
                             <li class="mil-has-children">
                                 <a href="{{ route('user.portfolio') }}">Portfolio</a>
