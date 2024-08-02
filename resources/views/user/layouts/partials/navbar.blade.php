@@ -14,7 +14,7 @@
                     <nav class="mil-main-menu" id="swupMenu">
                         <ul>
                             <li class="mil-has-children mil-active">
-                                <a href="{{ route('user.homepage') }}">Homepage</a>
+                                <a href="{{ route('user.home') }}">Home</a>
                             </li>
                             <li class="mil-has-children">
                                 <a href="{{ route('user.service') }}">Services</a>

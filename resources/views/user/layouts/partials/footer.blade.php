@@ -21,13 +21,13 @@
                             <nav class="mil-footer-menu mil-mb-60">
                                 <ul>
                                     <li class="mil-up mil-active">
-                                        <a href="{{ route('user.homepage') }}">Home</a>
-                                    </li>
-                                    <li class="mil-up">
-                                        <a href="{{ route('user.portfolio') }}">Portfolio</a>
+                                        <a href="{{ route('user.home') }}">Home</a>
                                     </li>
                                     <li class="mil-up">
                                         <a href="{{ route('user.service') }}">Services</a>
+                                    </li>
+                                    <li class="mil-up">
+                                        <a href="{{ route('user.portfolio') }}">Portfolio</a>
                                     </li>
                                     <li class="mil-up">
                                         <a href="{{ route('user.newslatter') }}">Newsletter</a>

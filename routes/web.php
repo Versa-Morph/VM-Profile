@@ -59,8 +59,8 @@ Route::get('/', function () {
 
 Route::name('user.')->middleware(['web'])->group(function () {
     Route::get('/', function() {
-        return view('user.homepage.index');
-    })->name('homepage');
+        return view('user.home.index');
+    })->name('home');
 
     Route::get('/team', function() {
         return view('user.team.all-team');
