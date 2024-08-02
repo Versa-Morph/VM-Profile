@@ -11,7 +11,6 @@
         <div class="mil-menu-content">
             <div class="row">
                 <div class="col-xl-5">
-
                     <nav class="mil-main-menu" id="swupMenu">
                         <ul>
                             <li class="mil-has-children mil-active">
@@ -27,14 +26,13 @@
                                 <a href="{{ route('user.newslatter') }}">Newsletter</a>
                             </li>
                             <li class="mil-has-children">
-                                <a href="#.">Team</a>
+                                <a href="{{ route('user.team.all') }}">Team</a>
                             </li>
                             <li class="mil-has-children">
-                                <a href="#.">Contact</a>
+                                <a href="{{ route('user.contact') }}">Contact</a>
                             </li>
                         </ul>
                     </nav>
-
                 </div>
                 <div class="col-xl-7">
 

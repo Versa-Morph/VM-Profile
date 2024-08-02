@@ -33,10 +33,10 @@
                                         <a href="{{ route('user.newslatter') }}">Newsletter</a>
                                     </li>
                                     <li class="mil-up">
-                                        <a href="#!">Team</a>
+                                        <a href="{{ route('user.team.all') }}">Team</a>
                                     </li>
                                     <li class="mil-up">
-                                        <a href="#!">Contact</a>
+                                        <a href="{{ route('user.contact') }}">Contact</a>
                                     </li>
                                 </ul>
                             </nav>

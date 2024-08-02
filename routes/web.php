@@ -62,9 +62,13 @@ Route::name('user.')->middleware(['web'])->group(function () {
         return view('user.homepage.index');
     })->name('homepage');
 
+    Route::get('/team', function() {
+        return view('user.team.all-team');
+    })->name('team.all');
+
     Route::get('/team/{name}', function($name) {
-        return view('user.team.index', compact('name'));
-    })->name('team');
+        return view('user.team.team-individu', compact('name'));
+    })->name('team.individu');
 
     Route::get('/portfolio', function() {
         return view('user.portfolio.index');
@@ -89,4 +93,8 @@ Route::name('user.')->middleware(['web'])->group(function () {
     Route::get('/newslatter/detail/', function() {
         return view('user.newslatter.detail');
     })->name('newslatter.detail');
+
+    Route::get('/contact', function() {
+        return view('user.contact.index');
+    })->name('contact');
 });
