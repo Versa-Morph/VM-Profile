@@ -4,7 +4,7 @@
             <div class="row justify-content-between">
                 <div class="col-md-4 col-lg-4 mil-mb-60">
 
-                    <div class="mil-muted mil-logo mil-up mil-mb-30">Ashley.</div>
+                    <div class="mil-muted mil-logo mil-up mil-mb-30">Versa Morph</div>
 
                     <p class="mil-light-soft mil-up mil-mb-30">Subscribe our newsletter:</p>
 
@@ -21,19 +21,22 @@
                             <nav class="mil-footer-menu mil-mb-60">
                                 <ul>
                                     <li class="mil-up mil-active">
-                                        <a href="#!">Home</a>
+                                        <a href="{{ route('user.homepage') }}">Home</a>
                                     </li>
                                     <li class="mil-up">
-                                        <a href="#!">Portfolio</a>
+                                        <a href="{{ route('user.portfolio') }}">Portfolio</a>
                                     </li>
                                     <li class="mil-up">
-                                        <a href="#!">Services</a>
+                                        <a href="{{ route('user.service') }}">Services</a>
+                                    </li>
+                                    <li class="mil-up">
+                                        <a href="{{ route('user.newslatter') }}">Newsletter</a>
+                                    </li>
+                                    <li class="mil-up">
+                                        <a href="#!">Team</a>
                                     </li>
                                     <li class="mil-up">
                                         <a href="#!">Contact</a>
-                                    </li>
-                                    <li class="mil-up">
-                                        <a href="#!">Blog</a>
                                     </li>
                                 </ul>
                             </nav>
@@ -60,16 +63,16 @@
 
                         <div class="col-md-6 col-lg-5 mil-mb-60">
 
-                            <h6 class="mil-muted mil-up mil-mb-30">Canada</h6>
+                            <h6 class="mil-muted mil-up mil-mb-30">Bekasi</h6>
 
-                            <p class="mil-light-soft mil-up">71 South Los Carneros Road, California <span class="mil-no-wrap">+51 174 705 812</span></p>
+                            <p class="mil-light-soft mil-up">1-2 Jl Hr Rasuna Said Blok X-5 South Jakarta, Jakarta Selatan <span class="mil-no-wrap"></span></p>
 
                         </div>
                         <div class="col-md-6 col-lg-5 mil-mb-60">
 
-                            <h6 class="mil-muted mil-up mil-mb-30">Germany</h6>
+                            <h6 class="mil-muted mil-up mil-mb-30">United States</h6>
 
-                            <p class="mil-light-soft mil-up">Leehove 40, 2678 MC De Lier, Netherlands <span class="mil-no-wrap">+31 174 705 811</span></p>
+                            <p class="mil-light-soft mil-up">145 Devonshire St Boston, Massachusetts <span class="mil-no-wrap"></span></p>
 
                         </div>
                     </div>
@@ -86,7 +89,7 @@
                                 <li><a href="#." target="_blank" class="social-icon"> <i class="far fa-circle"></i></a></li>
                             </ul>
                         </div>
-                        <p class="mil-light-soft mil-up">© Copyright 2023 - Mil. All Rights Reserved.</p>
+                        <p class="mil-light-soft mil-up">© Copyright 2024 - Versa Morph. All Rights Reserved.</p>
                     </div>
 
                 </div>

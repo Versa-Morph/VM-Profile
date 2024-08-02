@@ -58,8 +58,35 @@ Route::get('/', function () {
 // ================================================================================================================================
 
 Route::name('user.')->middleware(['web'])->group(function () {
-    // Route::get('/homepage',[HomepageController::class, 'index'])->name('homepage');
-    Route::get('/homepage', function() {
+    Route::get('/', function() {
         return view('user.homepage.index');
     })->name('homepage');
+
+    Route::get('/team/{name}', function($name) {
+        return view('user.team.index', compact('name'));
+    })->name('team');
+
+    Route::get('/portfolio', function() {
+        return view('user.portfolio.index');
+    })->name('portfolio');
+
+    Route::get('/portfolio/detail', function() {
+        return view('user.portfolio.detail');
+    })->name('portfolio.detail');
+
+    Route::get('/service', function() {
+        return view('user.service.index');
+    })->name('service');
+
+    Route::get('/service/detail/{name}', function($name) {
+        return view('user.service.detail', compact('name'));
+    })->name('service.detail');
+
+    Route::get('/newslatter', function() {
+        return view('user.newslatter.index');
+    })->name('newslatter');
+
+    Route::get('/newslatter/detail/', function() {
+        return view('user.newslatter.detail');
+    })->name('newslatter.detail');
 });

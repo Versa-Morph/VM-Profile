@@ -15,42 +15,22 @@
                     <nav class="mil-main-menu" id="swupMenu">
                         <ul>
                             <li class="mil-has-children mil-active">
-                                <a href="#.">Homepage</a>
-                                <ul>
-                                    <li><a href="#!">Landing page</a></li>
-                                    <li><a href="#!">Personal</a></li>
-                                    <li><a href="#!">Portfolio slider</a></li>
-                                </ul>
+                                <a href="{{ route('user.homepage') }}">Homepage</a>
                             </li>
                             <li class="mil-has-children">
-                                <a href="#.">Portfolio</a>
-                                <ul>
-                                    <li><a href="#!">Grid type 1</a></li>
-                                    <li><a href="#!">Grid type 2</a></li>
-                                    <li><a href="#!">Slider</a></li>
-                                </ul>
+                                <a href="{{ route('user.portfolio') }}">Portfolio</a>
                             </li>
                             <li class="mil-has-children">
-                                <a href="#.">Services</a>
-                                <ul>
-                                    <li><a href="#!">Services List</a></li>
-                                    <li><a href="#!">Single service</a></li>
-                                </ul>
+                                <a href="{{ route('user.service') }}">Services</a>
                             </li>
                             <li class="mil-has-children">
-                                <a href="#.">Newsletter</a>
-                                <ul>
-                                    <li><a href="#!">Blog List</a></li>
-                                    <li><a href="#!">Publication</a></li>
-                                </ul>
+                                <a href="{{ route('user.newslatter') }}">Newsletter</a>
                             </li>
                             <li class="mil-has-children">
-                                <a href="#.">Other pages</a>
-                                <ul>
-                                    <li><a href="#!">Team</a></li>
-                                    <li><a href="#!">Contact</a></li>
-                                    <li><a href="#!">404</a></li>
-                                </ul>
+                                <a href="#.">Team</a>
+                            </li>
+                            <li class="mil-has-children">
+                                <a href="#.">Contact</a>
                             </li>
                         </ul>
                     </nav>
@@ -95,25 +75,23 @@
                             </div>
                             <div class="mil-divider mil-mb-60"></div>
                             <div class="row justify-content-between">
-
                                 <div class="col-lg-4 mil-mb-60">
 
-                                    <h6 class="mil-muted mil-mb-30">Canada</h6>
+                                    <h6 class="mil-muted mil-mb-30">Indonesia</h6>
 
-                                    <p class="mil-light-soft mil-up">71 South Los Carneros Road, California <span class="mil-no-wrap">+51 174 705 812</span></p>
+                                    <p class="mil-light-soft mil-up">1-2 Jl Hr Rasuna Said Blok X-5 South Jakarta, Jakarta Selatan <span class="mil-no-wrap"></span></p>
 
                                 </div>
                                 <div class="col-lg-4 mil-mb-60">
 
-                                    <h6 class="mil-muted mil-mb-30">Germany</h6>
+                                    <h6 class="mil-muted mil-mb-30">United States</h6>
 
-                                    <p class="mil-light-soft">Leehove 40, 2678 MC De Lier, Netherlands <span class="mil-no-wrap">+31 174 705 811</span></p>
+                                    <p class="mil-light-soft mil-up">145 Devonshire St Boston, Massachusetts <span class="mil-no-wrap"></span></p>
 
                                 </div>
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>

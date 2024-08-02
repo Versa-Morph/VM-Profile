@@ -73,7 +73,7 @@
 
                         <div class="mil-about-quote">
                             <div class="mil-avatar mil-up">
-                                <img src="{{ ('img/faces/customers/2.jpg') }}" alt="Founder">
+                                <img src="{{ ('assets/img/faces/customers/2.jpg') }}" alt="Founder">
                             </div>
                             <h6 class="mil-quote mil-up">Passionately Crafting <span class="mil-thin">Digital Excellence:</span> Unleashing <span class="mil-thin">Infinite Innovation</span></h6>
                         </div>
@@ -132,7 +132,7 @@
                 <div class="row mil-services-grid m-0 justify-content-center">
                     <div class="col-md-6 col-lg-2 mil-services-grid-item p-0">
 
-                        <a href="#!" class="mil-service-card-sm mil-up">
+                        <a href="{{ route('user.service.detail', ['name' => 'Digital-Transformation']) }}" class="mil-service-card-sm mil-up">
                             <h5 class="mil-muted mil-mb-30">Digital <br>Transformation</h5>
                             <p class="mil-light-soft mil-mb-30">Leading your business through seamless digital transitions for greater efficiency.</p>
                             <div class="mil-button mil-icon-button-sm mil-arrow-place"></div>
@@ -141,16 +141,16 @@
                     </div>
                     <div class="col-md-6 col-lg-2 mil-services-grid-item p-0">
 
-                        <a href="#!" class="mil-service-card-sm mil-up">
+                        <a href="{{ route('user.service.detail', ['name' => 'Software-Development']) }}" class="mil-service-card-sm mil-up">
                             <h5 class="mil-muted mil-mb-30">Software <br>Development</h5>
-                            <p class="mil-light-soft mil-mb-30">Designing and developing software tailored to your specific needs.  </p>
+                            <p class="mil-light-soft mil-mb-30">Designing and developing software tailored to your specific needs.</p>
                             <div class="mil-button mil-icon-button-sm mil-arrow-place"></div>
                         </a>
 
                     </div>
                     <div class="col-md-6 col-lg-2 mil-services-grid-item p-0">
 
-                        <a href="#!" class="mil-service-card-sm mil-up">
+                        <a href="{{ route('user.service.detail', ['name' => 'IT-Consulting']) }}" class="mil-service-card-sm mil-up">
                             <h5 class="mil-muted mil-mb-30">IT <br>Consulting</h5>
                             <p class="mil-light-soft mil-mb-30">Offering expert guidance to optimize your technology infrastructure.</p>
                             <div class="mil-button mil-icon-button-sm mil-arrow-place"></div>
@@ -159,7 +159,7 @@
                     </div>
                     <div class="col-md-6 col-lg-2 mil-services-grid-item p-0">
 
-                        <a href="#!" class="mil-service-card-sm mil-up">
+                        <a href="{{ route('user.service.detail', ['name' => 'Data-Analytics-Transformation-and-AI-Solutions']) }}" class="mil-service-card-sm mil-up">
                             <h5 class="mil-muted mil-mb-30">Data Analytics <br>and AI Solutions</h5>
                             <p class="mil-light-soft mil-mb-30">Utilizing data and AI to drive strategic business decisions.</p>
                             <div class="mil-button mil-icon-button-sm mil-arrow-place"></div>
@@ -168,7 +168,7 @@
                     </div>
                     <div class="col-md-6 col-lg-2 mil-services-grid-item p-0">
 
-                        <a href="#!" class="mil-service-card-sm mil-up">
+                        <a href="{{ route('user.service.detail', ['name' => 'Cybersecurity-Services']) }}" class="mil-service-card-sm mil-up">
                             <h5 class="mil-muted mil-mb-30">Cybersecurity <br>Services</h5>
                             <p class="mil-light-soft mil-mb-30">Ensuring robust protection for your digital assets and data.</p>
                             <div class="mil-button mil-icon-button-sm mil-arrow-place"></div>
@@ -177,7 +177,7 @@
                     </div>
                     <div class="col-md-6 col-lg-2 mil-services-grid-item p-0">
 
-                        <a href="#!" class="mil-service-card-sm mil-up">
+                        <a href="{{ route('user.service.detail', ['name' => 'Cloud-Solutions']) }}" class="mil-service-card-sm mil-up">
                             <h5 class="mil-muted mil-mb-30">Cloud <br>Solutions</h5>
                             <p class="mil-light-soft mil-mb-30">Implementing scalable cloud services to support your business operations.</p>
                             <div class="mil-button mil-icon-button-sm mil-arrow-place"></div>
@@ -219,8 +219,8 @@
                                     <img src="{{ asset('assets/img/faces/1.jpg') }}" alt="Team member">
                                     <div class="mil-description">
                                         <div class="mil-secrc-text">
-                                            <h5 class="mil-muted mil-mb-5"><a href="#!">Anna Oldman</a></h5>
-                                            <p class="mil-link mil-light-soft mil-mb-10">Art Director</p>
+                                            <h5 class="mil-muted mil-mb-5"><a href="{{ route('user.team', ['name' => 'Andika-Noor-Ismawan']) }}">Andika Noor Ismawan</a></h5>
+                                            <p class="mil-link mil-light-soft mil-mb-10">Product Manager</p>
                                             <ul class="mil-social-icons mil-center">
                                                 <li><a href="#." target="_blank" class="social-icon"> <i class="fab fa-behance"></i></a></li>
                                                 <li><a href="#." target="_blank" class="social-icon"> <i class="fab fa-dribbble"></i></a></li>
@@ -235,8 +235,8 @@
                                     <img src="{{ asset('assets/img/faces/3.jpg') }}" alt="Team member">
                                     <div class="mil-description">
                                         <div class="mil-secrc-text">
-                                            <h5 class="mil-muted mil-mb-5"><a href="#!">Oscar Freeman</a></h5>
-                                            <p class="mil-link mil-light-soft mil-mb-10">Frontend Dev</p>
+                                            <h5 class="mil-muted mil-mb-5"><a href="{{ route('user.team', ['name' => 'Sahri-Ramadan']) }}">Sahri Ramadan</a></h5>
+                                            <p class="mil-link mil-light-soft mil-mb-10">Software Engineer</p>
                                             <ul class="mil-social-icons mil-center">
                                                 <li><a href="#." target="_blank" class="social-icon"> <i class="fab fa-behance"></i></a></li>
                                                 <li><a href="#." target="_blank" class="social-icon"> <i class="fab fa-dribbble"></i></a></li>
@@ -256,24 +256,8 @@
                                     <img src="{{ asset('assets/img/faces/2.jpg') }}" alt="Team member">
                                     <div class="mil-description">
                                         <div class="mil-secrc-text">
-                                            <h5 class="mil-muted mil-mb-5"><a href="#!">Emma Newman</a></h5>
-                                            <p class="mil-link mil-light-soft mil-mb-10">Founder</p>
-                                            <ul class="mil-social-icons mil-center">
-                                                <li><a href="#." target="_blank" class="social-icon"> <i class="fab fa-behance"></i></a></li>
-                                                <li><a href="#." target="_blank" class="social-icon"> <i class="fab fa-dribbble"></i></a></li>
-                                                <li><a href="#." target="_blank" class="social-icon"> <i class="fab fa-twitter"></i></a></li>
-                                                <li><a href="#." target="_blank" class="social-icon"> <i class="fab fa-github"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="mil-team-card mil-up mil-mb-30">
-                                    <img src="{{ asset('assets/img/faces/4.jpg') }}" alt="Team member">
-                                    <div class="mil-description">
-                                        <div class="mil-secrc-text">
-                                            <h5 class="mil-muted mil-mb-5"><a href="#!">Lisa Trueman</a></h5>
-                                            <p class="mil-link mil-light-soft mil-mb-10">UI/UX Designer</p>
+                                            <h5 class="mil-muted mil-mb-5"><a href="{{ route('user.team', ['name' => 'Unique-Scovi-Egnel']) }}">Unique Scovi Egnel</a></h5>
+                                            <p class="mil-link mil-light-soft mil-mb-10">Technical Writer</p>
                                             <ul class="mil-social-icons mil-center">
                                                 <li><a href="#." target="_blank" class="social-icon"> <i class="fab fa-behance"></i></a></li>
                                                 <li><a href="#." target="_blank" class="social-icon"> <i class="fab fa-dribbble"></i></a></li>
@@ -286,9 +270,7 @@
 
                             </div>
                         </div>
-
                     </div>
-
                 </div>
             </div>
         </div>
@@ -418,7 +400,7 @@
                 </div>
                 <div class="col-lg-6 mil-mb-30">
                     <div class="mil-adaptive-right mil-up">
-                        <a href="#!" class="mil-link mil-dark mil-arrow-place">
+                        <a href="{{ route('user.newslatter') }}" class="mil-link mil-dark mil-arrow-place">
                             <span>View all</span>
                         </a>
                     </div>
@@ -427,7 +409,7 @@
             <div class="row">
                 <div class="col-lg-6">
 
-                    <a href="#!" class="mil-blog-card mil-mb-60">
+                    <a href="{{ route('user.newslatter.detail') }}" class="mil-blog-card mil-mb-60">
                         <div class="mil-cover-frame mil-up">
                             <img src="{{ asset('assets/img/blog/1.jpg') }}" alt="cover">
                         </div>
@@ -447,7 +429,7 @@
                 </div>
                 <div class="col-lg-6">
 
-                    <a href="#!" class="mil-blog-card mil-mb-60">
+                    <a href="{{ route('user.newslatter.detail') }}" class="mil-blog-card mil-mb-60">
                         <div class="mil-cover-frame mil-up">
                             <img src="{{ asset('assets/img/blog/2.jpg') }}" alt="cover">
                         </div>
