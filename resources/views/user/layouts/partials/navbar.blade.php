@@ -77,7 +77,7 @@
 
                                     <h6 class="mil-muted mil-mb-30">Indonesia</h6>
 
-                                    <p class="mil-light-soft mil-up">1-2 Jl Hr Rasuna Said Blok X-5 South Jakarta, Jakarta Selatan <span class="mil-no-wrap"></span></p>
+                                    <p class="mil-light-soft mil-up">1-2 Jl Hr Rasuna Said Blok X-5 South Jakarta<span class="mil-no-wrap"></span></p>
 
                                 </div>
                                 <div class="col-lg-4 mil-mb-60">
