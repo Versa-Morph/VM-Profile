@@ -6,7 +6,7 @@
         <div class="mil-banner-content mil-center mil-up">
             <div class="container">
                 <ul class="mil-breadcrumbs mil-center mil-mb-60">
-                    <li><a href="{{ route('user.homepage') }}">Homepage</a></li>
+                    <li><a href="{{ route('user.home') }}">Homepage</a></li>
                     <li><a href="#!">Contact</a></li>
                 </ul>
                 <h1 class="mil-mb-60">Get in touch!</h1>

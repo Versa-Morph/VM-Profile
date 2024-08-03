@@ -11,7 +11,7 @@
                 </div>
                 <div class="container">
                     <ul class="mil-breadcrumbs mil-light mil-mb-60">
-                        <li><a href="{{ route('user.homepage') }}">Homepage</a></li>
+                        <li><a href="{{ route('user.home') }}">Homepage</a></li>
                         <li><a href="{{ route('user.service') }}">Services</a></li>
                     </ul>
                     <h1 class="mil-muted mil-mb-60">This is <span class="mil-thin">what</span><br> we do <span class="mil-thin">best</span></h1>

@@ -9,7 +9,7 @@
         </div>
         <div class="container">
             <ul class="mil-breadcrumbs mil-mb-60">
-                <li><a href="{{ route('user.homepage') }}">Homepage</a></li>
+                <li><a href="{{ route('user.home') }}">Homepage</a></li>
                 <li><a href="#!">All Team</a></li>
             </ul>
             <h1 class="mil-mb-60">Meet <span class="mil-thin">Our</span><br> Creative <span class="mil-thin">Team</span></h1>

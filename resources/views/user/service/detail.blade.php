@@ -9,7 +9,7 @@
     <div class="mil-banner-content mil-up">
         <div class="container">
             <ul class="mil-breadcrumbs mil-mb-60">
-                <li><a href="{{ route('user.homepage') }}">Homepage</a></li>
+                <li><a href="{{ route('user.home') }}">Homepage</a></li>
                 <li><a href="{{ route('user.service') }}">Services</a></li>
                 <li><a href="#!">{{ str_replace('-', ' ', $name) }}</a></li>
             </ul>

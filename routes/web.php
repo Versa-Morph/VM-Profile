@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 
 // Direct Login
 Route::get('/', function () {
-    return redirect(route('user.homepage'));
+    return redirect(route('user.home'));
 });
 
 // Route::middleware(['auth'])->group(function () {
